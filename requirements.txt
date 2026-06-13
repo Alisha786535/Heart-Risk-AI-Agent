@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+pydantic
+scikit-learn
+pandas
+numpy
+joblib
+streamlit
+
+# ── Optional: swap in HuggingFace-based recommendation engine ──────────────
+transformers
+torch
+sentence-transformers
