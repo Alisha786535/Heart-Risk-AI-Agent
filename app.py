@@ -1064,6 +1064,8 @@ def main():
                 st.session_state.step = 0; st.rerun()
 
     with st.sidebar:
+        st.header("👤 User Account")
+        st.title("Heart Health Inc.")
         st.markdown(f"### 💓 {st.session_state.current_user['name']}")
         st.markdown("---")
         if st.button("🚪 Sign out", use_container_width=True):
