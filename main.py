@@ -87,3 +87,64 @@ def health_check():
 
 if __name__ == "__main__":
     uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
+==========================================================
+NEW Data
+==========================================================
+            """Cardiovascular Disease Prediction Model
+This module contains the requirements for the Cardiovascular Disease Prediction Model. 
+LLM-based model for predicting the risk of cardiovascular disease based on patient data. 
+Chatbot interface for user interaction and data input. 
+The model utilizes machine learning algorithms to analyze patient data and provide risk assessments.
+It's an autonomous system that can be integrated into healthcare applications for early detection and prevention of cardiovascular diseases.
+It'll automatically update its knowledge base with new research and data to improve prediction accuracy over time.
+It's designed to be user-friendly and accessible to both healthcare professionals and patients, providing valuable insights into cardiovascular health.
+The most interesting part of this model is its ability to learn and adapt to new information, making it a powerful tool for personalized healthcare.
+It'll automatically update user assesmants based on new data and research findings, ensuring that users receive the most accurate and up-to-date information regarding their cardiovascular health.
+"""
+#Heart Attack Risk Prediction API
+"""FastAPI application — serves the frontend AND the REST API.
+
+Start:  uvicorn main:app --reload --host 0.0.0.0 --port 8000
+Then open:  http://localhost:8000           ← Beautiful UI
+            http://localhost:8000/docs      ← Swagger
+"""
+from fastapi import FastAPI, Request
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse, JSONResponse
+from fastapi.staticfiles import StaticFiles
+
+from pathlib import Path
+
+import os
+
+import uvicorn
+
+from routers.predict import router as predict_router
+from routers.recommendations import router as recs_router
+from routers.stats import router as stats_router
+
+app = FastAPI(
+    title="CardioThorasic.ai"
+    description="""
+    # Cardiovascular Disease Prediction Model #
+
+    ###Purpose: 
+    To provide a comprehensive and user-friendly platform for predicting the risk of cardiovascular disease based on patient data.
+    Cardiovascular Disease Prediction Model, 
+    LLM-based model for predicting the risk of cardiovascular disease based on patient data.
+    Chatbot interface for user interaction and data input. 
+    The model utilizes machine learning algorithms to analyze patient data and provide risk assessments. 
+    It's an autonomous system that can be integrated into healthcare applications for early detection and prevention of cardiovascular diseases. 
+    It'll automatically update its knowledge base with new research and data to improve prediction accuracy over time. 
+    It's designed to be user-friendly and accessible to both healthcare professionals and patients,
+    providing valuable insights into cardiovascular health.
+    The most interesting part of this model is its ability to learn and adapt to new information, 
+    making it a powerful tool for personalized healthcare. 
+    It'll automatically update user assesmants based on new data and research findings, 
+    ensuring that users receive the most accurate and up-to-date information regarding their cardiovascular health."
+
+    ###Models:
+    ###Endpoints:
+    """,
+    version="1.0.0",
+)
