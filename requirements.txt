@@ -11,3 +11,30 @@ streamlit
 transformers
 torch
 sentence-transformers
+==================================================
+New Data
+==================================================
+"""Requirements for the Cardiovascular Disease Prediction Model
+This file lists the dependencies required to run the Cardiovascular Disease Prediction Model.
+Each dependency is specified with its version to ensure compatibility and reproducibility of the model.
+Generated on: 2026-09-20,
+this file is intended to be used with Python's package manager, pip, to install the necessary libraries.
+Guide for usage:
+1. Ensure you have Python installed on your system.
+2. Create a virtual environment (optional but recommended) to manage dependencies.
+3. Use the command `pip install -r requirements.txt` to install all the dependencies listed in this file.
+4. After installation, you can run the Cardiovascular Disease Prediction Model as per the instructions provided in the model's documentation.
+"""
+fastapi
+uvicorn[standard]
+pydantic
+scikit-learn
+pandas
+numpy
+joblib
+streamlit
+
+# Optional: swap in HuggingFace-based recommendation engine
+transformers
+torch
+sentence-transformers
