@@ -6,7 +6,7 @@ personalised healthy-habit recommendations using an ensemble ML pipeline.
 ---
 ## User-Interface
 Click the link below and veiw the GUI to understand more quickly
-[Streamlit.io Link](https://dgzfytanvhc4dnhxkwiip8.streamlit.app/)
+[Streamlit.io Link](https://heart-risk-ai-agent-ha8anitxx3xkyjrtcqhyqh.streamlit.app/)
 
 ---
 ## Prerequisites
