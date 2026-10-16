@@ -4,6 +4,19 @@ A production-ready FastAPI system that evaluates heart attack risk and delivers
 personalised healthy-habit recommendations using an ensemble ML pipeline.
 
 ---
+## User-Interface
+Click the link below and veiw the GUI to understand more quickly
+[Streamlit.io Link](https://dgzfytanvhc4dnhxkwiip8.streamlit.app/)
+
+---
+## Prerequisites
+
+Before deploying, ensure you have:
+
+- Python 3.10+ installed
+- Git installed
+- Virtual environment tool (`venv`) or Conda (optional but recommended)
+- Streamlit installed (`pip install streamlit`)
 
 ## 🏗️ Architecture
 
