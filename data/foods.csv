@@ -1,0 +1,36 @@
+name,meal,kcal,carbs_g,protein_g,sat_fat_g,sodium_mg,gi,diet,allergens
+Oatmeal with berries,breakfast,250,45,8,1.5,10,low,vegan,
+Vegetable omelette (2 eggs),breakfast,220,5,15,4.5,300,low,veg,egg
+Wholewheat toast + peanut butter,breakfast,280,32,10,2.5,250,medium,vegan,gluten;nuts
+Plain yogurt + fruit,breakfast,180,28,9,2,90,low,veg,dairy
+Moong dal chilla (2),breakfast,230,30,14,1,200,low,vegan,
+Vegetable poha,breakfast,260,45,6,1.2,300,medium,vegan,
+Boiled eggs (2) + cucumber,breakfast,170,2,13,3,140,low,veg,egg
+Chia pudding with almond milk,breakfast,210,22,6,1.5,90,low,vegan,nuts
+White bread + butter,breakfast,300,45,7,6,450,high,veg,gluten;dairy
+Sweet cereal with milk,breakfast,330,60,8,2,300,high,veg,dairy;gluten
+Grilled chicken + brown rice + salad,lunch,480,52,38,3,380,medium,nonveg,
+Lentil dal + 2 wholewheat rotis + salad,lunch,450,70,20,1.5,420,low,vegan,gluten
+Grilled fish + steamed veg + quinoa,lunch,430,38,36,2,320,low,nonveg,fish
+Chickpea salad bowl,lunch,380,52,16,1.5,300,low,vegan,
+Vegetable pulao (brown rice) + raita,lunch,420,68,12,3,520,medium,veg,dairy
+Light chicken curry + roti,lunch,520,45,34,5,650,medium,nonveg,gluten
+Tofu stir-fry + brown rice,lunch,410,50,20,2,420,medium,vegan,soy
+Paneer-vegetable stir-fry + roti,lunch,460,40,22,9,500,medium,veg,dairy;gluten
+Oily curry + white rice,lunch,650,90,15,9,900,high,nonveg,
+Vegetable soup + grilled chicken,dinner,340,22,30,2,480,low,nonveg,
+Mixed vegetable curry + 1 roti,dinner,330,48,10,2,380,low,vegan,gluten
+Baked salmon + roasted vegetables,dinner,420,18,35,4,300,low,nonveg,fish
+Lentil soup + salad,dinner,300,42,18,1,420,low,vegan,
+Bean and vegetable stew,dinner,320,48,16,1,400,low,vegan,
+Egg-white scramble + veg + toast,dinner,300,30,22,2,420,medium,veg,egg;gluten
+Battered fried fish + chips,dinner,700,60,30,10,900,high,nonveg,fish;gluten
+Apple + 10 almonds,snack,160,22,4,1,2,low,vegan,nuts
+Roasted chickpeas (30 g),snack,120,18,6,0.5,150,low,vegan,
+Small plain yogurt,snack,90,7,6,2,60,low,veg,dairy
+Carrot and cucumber sticks + hummus,snack,110,14,4,1,180,low,vegan,
+Guava or orange,snack,70,17,1,0,2,low,vegan,
+Boiled egg,snack,80,0.5,6,1.5,70,low,veg,egg
+Unsalted mixed nuts (small handful),snack,170,6,6,2,2,low,vegan,nuts
+Sweet biscuits (3),snack,150,24,2,3,120,high,veg,gluten;dairy
+Fried samosa (1),snack,260,28,5,5,420,high,veg,gluten
