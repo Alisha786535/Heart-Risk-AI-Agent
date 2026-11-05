@@ -1,0 +1,18 @@
+# Core API
+fastapi
+uvicorn[standard]
+pydantic>=2
+scikit-learn      # PIN to the version you train with (e.g. scikit-learn==1.9.0), pickles are version-specific
+pandas
+numpy
+joblib
+# Chat assistant
+requests
+streamlit
+# Dev
+pytest
+httpx
+# Optional (large) – only if you add embeddings/RAG or a local transformer later:
+# sentence-transformers
+# transformers
+# torch

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+# user data / secrets – never commit
+data/users.csv
+data/app.db
+# regenerate with: python train_models.py
+models/*.pkl
