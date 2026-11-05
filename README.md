@@ -3,7 +3,10 @@
 A production-ready FastAPI system that evaluates heart attack risk and delivers
 personalised healthy-habit recommendations using an ensemble ML pipeline.
 ---
-To veiw frontend of this model click on the link 
+## User-Interface
+Click the link below and veiw the GUI to understand more quickly
+[Streamlit.io Link](https://gedstwjbpzcfrmfkodx8ok.streamlit.app/)
+
 ---
 
 ## 🏗️ Architecture
